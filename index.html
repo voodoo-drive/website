@@ -26,5 +26,15 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/cosmicjs@latest/cosmicjs.browser.min.js"></script>
-<script src="runtime.a8ef3a8272419c2e2c66.js" defer></script><script src="polyfills-es5.3e724246cafbb081c684.js" nomodule defer></script><script src="polyfills.c647fbe2529d052fdbc1.js" defer></script><script src="scripts.1378e716066da0dd7acb.js" defer></script><script src="main.272a3f4e7c050d07c744.js" defer></script></body>
+  <script type="text/javascript"> // RELOADS WEBPAGE WHEN MOBILE ORIENTATION CHANGES
+    window.onorientationchange = function() {
+        var orientation = window.orientation;
+            switch(orientation) {
+                case 0:
+                case 90:
+                case -90: window.location.reload();
+                break; }
+    };
+    </script>
+<script src="runtime.a8ef3a8272419c2e2c66.js" defer></script><script src="polyfills-es5.3e724246cafbb081c684.js" nomodule defer></script><script src="polyfills.c647fbe2529d052fdbc1.js" defer></script><script src="scripts.1378e716066da0dd7acb.js" defer></script><script src="main.95da380dac4ff7d16df0.js" defer></script></body>
 </html>
