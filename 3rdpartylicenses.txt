@@ -96,7 +96,11 @@ THE SOFTWARE.
 
 @angular/material/form-field
 
+@angular/material/icon
+
 @angular/material/snack-bar
+
+@angular/material/toolbar
 
 @angular/material/tooltip
 
