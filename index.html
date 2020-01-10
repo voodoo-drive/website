@@ -33,24 +33,10 @@
       msieversion();
       function msieversion() {
         if (window.document.documentMode) {
-          alert('AAAAHHHHH');
+          ("body").addClass("ie")
         }
 
-      }
-
-      if (a.browser.msie) {
-                if (parseFloat(a.browser.version) >= 9) {
-                    a("body").addClass("ie9")
-                } else {
-                    if (parseFloat(a.browser.version) >= 8) {
-                        a("body").addClass("ie8")
-                    } else {
-                        if (parseFloat(a.browser.version) >= 7) {
-                            a("body").addClass("ie7")
-                        } else {}
-                    }
-                }
-              }
+      };
 
 	</script>
 
